@@ -1,0 +1,73 @@
+/*類型選擇器h1*/
+h1 {
+  font-family: 'Arima Madurai', 'Arial Black', serif;
+  font-weight: normal;
+ 	color: #6A94CC;
+ 	font-size: 3em;
+ 	margin: 0;
+}
+/*後裔選擇器_53頁*/
+h1 strong {
+  color: red;
+}
+/*後裔選擇器_55頁*/
+.intro a {
+	color: yellow;
+}
+/*後裔選擇器_建立模組_55頁*/
+.news h2 {
+	color: red;
+}
+.news p {
+	color: blue;
+}
+/*後裔選擇器_建立模組:多重類別名稱建立後裔選擇器_55頁*/
+.contact .name {
+	font-weight: bold;
+}
+.contact .phone {
+	color: blue;
+}
+.contact .address {
+	color: red;
+}
+/*子選擇器_63頁*/
+article > h3 {
+	color: red;
+}
+/*選取子元素(子標籤)的擬類別(偽類別)_64頁*/
+article > div:first-child {
+	color: red;
+}
+/*選取子元素(子標籤)的擬類別(偽類別)_65頁_article第二個子元素*/
+article > div:nth-child(2) {
+	color: blue;
+}
+/*選取子元素(子標籤)的擬類別(偽類別)_65頁_article最後一個子元素*/
+article > p:last-child {
+	color: yellow;
+}
+/*選取子元素(子標籤)的擬類別(偽類別)_66頁*/
+tr:nth-child(odd) {
+	background-color: #D9F0FF;
+}
+tr:nth-child(even) {
+	background-color: red;
+}
+/*68頁*/
+article p:first-of-type {
+	color: red;
+}
+.sidebar p:first-of-type {
+	color: red; 
+}
+.sidebar p:last-of-type {
+	color: blue; 
+}
+/*71頁*/
+#signupForm {
+	display: none;
+}
+#signupForm:target {
+	display: block;
+}
